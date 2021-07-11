@@ -1,0 +1,214 @@
+/* Стили для index.html */
+.h1 {
+    color: white;
+    background-color: #2f303a;
+}
+:root {
+    --logo-color: white;
+    --main-page-color: #ffffff;
+    --second-page-color: #f5f4fa;
+    --accent-page-color: #2f303a;
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196f3;
+    --phone-text-color: rgba(255, 255, 255, 0.6);
+}
+
+:body {
+    background-color: var(--main-page-color);
+    color: var(--main-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+/*Header*/
+
+/*Logo*/
+
+.logo {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+
+.logo-span {
+    color: var(--accent-text-color);
+}
+
+.footer-studio {
+    color: var(--logo-color);
+}
+
+/*Logo End*/
+
+/*Naviagation*/
+
+.head-nav-list,
+.head-mail-number {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.head-nav-link,
+.head-mail-link {
+    color: black;
+}
+.head-nav-link:hover,
+.head-nav-link:focus,
+.head-mail-link:hover,
+.head-mail-link:focus {
+    color: var(--accent-text-color);
+}
+
+.head-phone-link {
+    color: var(--main-text-color);
+}
+
+/*Navigation End*/
+
+/*Header End*/
+
+/*Hero*/
+
+/*Main Description*/
+
+.hero-section {
+    text-align: center;
+    background-color: var(--accent-page-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-page-color);
+}
+
+.button-link {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    color: var(--main-page-color);
+    background-color: var(--accent-text-color);
+}
+
+/*The End Hero*/
+/*The End Main Description*/
+
+/*Features*/
+
+.features-list-subtitle {
+    font-weight: bold;
+    font-size: inherit;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features-list-text {
+    line-height: 1.71;
+    color: var(--main-text-color);
+}
+/*The End Features*/
+
+/*What we-re are do*/
+
+.what-we-are-do-subtitle {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/*The End Section*/
+
+/*Our Team*/
+
+.section-team {
+    background-colorbackground: var(--second-page-color);
+}
+.team-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team-list-item {
+    background-color: var(--main-page-color);
+}
+
+.team-list-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.team-list-text {
+    font-size: 16px;
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+/*End Team Section*/
+
+/*Portfolio*/
+
+.btn-option {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    background-color: var(--main-page-color);
+    cursor: pointer;
+}
+.btn-option:hover,
+.btn-option:focus {
+    background-color: var(--accent-text-color);
+}
+
+.products-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.products-text {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--main-text-color);
+}
+
+/*Footer*/
+
+.footer {
+    background-color: var(--accent-page-color);
+}
+
+.adress {
+    font-style: normal;
+    line-height: 1.71;
+}
+.adress-link {
+    color: var(--main-page-color);
+}
+.mail-link,
+.phone-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*The End Footer*/
