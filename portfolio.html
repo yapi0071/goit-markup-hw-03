@@ -23,25 +23,25 @@
         <!--Navigation Menu-->
         <header>
             <div class="container">
-            <nav>
-                <a class="logo" href="./index.html"
+            <nav class="navi">
+                <a class="logo link" href="./index.html"
           ><span class="logo-span">Web</span>Studio</a
         >
-                <ul class="navi-list">
+                <ul class="navi-list list">
                     <li class="navi-list-item">
-                        <a href="./index.html" class="navi-link">Студия</a>
+                        <a href="./index.html" class="navi-link link">Студия</a>
                     </li>
                     <li class="navi-list-item">
-                        <a href="./portfolio.html" class="navi-link">Портфолио</a>
+                        <a href="./portfolio.html" class="navi-link link">Портфолио</a>
                     </li>
                     <li class="navi-list-item">
-                        <a href="./contact" class="navi-link">Контакты</a>
+                        <a href="./contact" class="navi-link link">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="contacts">
-                <li><a href="mailto:info@devstudio.com" class="contacts header-contacts">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="contacts header-contacts">+38 096 111 11 11</a></li>
+            <ul class="contacts list">
+                <li class="contacts-item"><a href="mailto:info@devstudio.com" class="contacts-link link">info@devstudio.com</a></li>
+                <li class="contacts-item"><a href="tel:+380961111111" class="contacts-link link">+38 096 111 11 11</a></li>
             </ul>
         </div>
         </header>
@@ -51,8 +51,8 @@
             <section class="portfolio">
             <div class="conteiner">
                 <!--Скрытие заголовка h1 через CSS-->
-                <h1 class="portfolio-title">Портфолио</h1>
-                <ul class="button-list">
+                <h1 class="portfolio-title visually-hidden">Портфолио</h1>
+                <ul class="button-list list">
                 <li class="btn-option"><button type="button">Все</button></li>
                 <li class="btn-option"><button type="button">Веб-сайты</button></li>
                 <li class="btn-option"><button type="button">Приложения</button></li>
@@ -61,8 +61,10 @@
             </ul>
 
             <!--Наши работы 9 пунктов-->
-            <h2 class="hidden">Наши работы</h2>
-            <ul class="works-list">
+            <section class="portfolio"> 
+                <div class="container">
+            <h2 class="visually-hidden">Наши работы</h2>
+            <ul class="works-list list">
                 <li class="work-list-item">
                     <a class="link" href="">
                         <img src="./images/Открытый ноутбук.png" alt="Технокряк" width="370" height="294">
@@ -153,19 +155,19 @@
 
    <footer class="footer">
     <div class="container">
-    <a class="logo" href="./index.html"
+    <a class="logo link link" href="./index.html"
   ><span class="logo-span" lang="en">Web</span><span class=footer-studio lang="en">Studio</span></a
 >
     <address class="adress">
-        <ul class="adress-list">
+        <ul class="adress-list list">
             <li class="adress-item">
-                <a class="adress-link" href="https://goo.gl/maps/WBp1z51C1kAFo6pN6" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+                <a class="adress-link link" href="https://goo.gl/maps/WBp1z51C1kAFo6pN6" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
             <li class="adress-item">
-                <a class="mail-link" href="mail:info@devstudio.com">info@devstudio.com</a>
+                <a class="mail-link link" href="mail:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li class="adress-item">
-                <a class="phone-link" href="tel:00380961111111">+38 096 111 11 11</a>
+                <a class="phone-link link" href="tel:00380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
     </adress>
