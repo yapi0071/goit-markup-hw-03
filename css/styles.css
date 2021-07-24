@@ -120,6 +120,10 @@ img {
     display: flex;
 }
 
+.filter {
+    margin-bottom: 50px;
+}
+
 .navi-list {
     display: flex;
 }
@@ -129,6 +133,10 @@ img {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.header {
+    margin: 94px;
 }
 .contacts {
     display: flex;
@@ -293,6 +301,7 @@ img {
     letter-spacing: 0.06em;
     color: var(--title-text-color);
     margin-bottom: 4px;
+    font-family: Roboto;
 }
 
 .products-text {
@@ -307,12 +316,21 @@ img {
     background-color: var(--accent-page-color);
 }
 
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+
 .adress {
     font-style: normal;
     line-height: 1.71;
 }
 .adress-link {
     color: var(--main-page-color);
+}
+
+.products-title {
+    max-width: 322px;
 }
 .mail-link,
 .phone-link {
