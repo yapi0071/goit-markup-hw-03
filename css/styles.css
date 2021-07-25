@@ -170,11 +170,17 @@ img {
 /*Main Description*/
 
 .hero-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
     background-color: var(--accent-page-color);
 }
 
 .hero-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -184,6 +190,9 @@ img {
 }
 
 .button-link {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 32px;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -200,14 +209,26 @@ img {
 
 /*Features*/
 
-.features-list-subtitle {
+.features-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--main-page-color);
+}
+
+.features-list {
+    display: flex;
+
+.features-item {
+    
+}
+.features-subtitle {
     font-weight: bold;
     font-size: inherit;
     line-height: 1.14;
     text-transform: uppercase;
 }
 
-.features-list-text {
+.features-text {
     line-height: 1.71;
     color: var(--main-text-color);
 }
@@ -313,12 +334,18 @@ img {
 /*Footer*/
 
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--accent-page-color);
 }
 
 .footer-nav {
     display: flex;
     flex-direction: column;
+}
+.logo {
+    display: block;
+    margin-bottom: 5px;
 }
 
 .adress {
@@ -328,9 +355,16 @@ img {
 .adress-link {
     color: var(--main-page-color);
 }
-
+.adress-list {
+    margin-bottom: 9px;
+}
 .products-title {
     max-width: 322px;
+}
+
+.address-item .link:hover,
+.address-item .link:focus {
+    color: var(--main-text-color);
 }
 .mail-link,
 .phone-link {
