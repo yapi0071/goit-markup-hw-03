@@ -98,12 +98,11 @@ img {
 }
 
 .container {
-    display: flex;
     width: 1200px;
-    margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*Header*/
@@ -131,8 +130,9 @@ img {
     display: block;
     padding: 32px 0;
 }
-.navi {
-    display: flex;
+.navi-block {
+    display: block;
+    align-items: center;
     margin-right: 215;
     margin-left: 215;
 }
@@ -152,9 +152,6 @@ img {
     letter-spacing: 0.02em;
 }
 
-.header {
-    margin: 94px;
-}
 .contacts {
     display: flex;
     margin-left: auto;
@@ -197,7 +194,6 @@ img {
 }
 
 .button-link {
-    display: box;
     padding: 10px 32px;
     font-family: inherit;
     font-weight: 700;
@@ -205,9 +201,12 @@ img {
     line-height: 1.88;
     align-items: center;
     letter-spacing: 0.06em;
-    color: var(--white-color);
+    border-color: transparent;
+    border-style: none;
+    border-radius: 4px;
     color: var(--main-page-color);
     background-color: var(--accent-text-color);
+    cursor: pointer;
 }
 
 /*The End Hero*/
