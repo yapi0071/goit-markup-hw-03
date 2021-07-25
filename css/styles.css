@@ -222,8 +222,6 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--main-page-color);
-    margin-right: 215px;
-    margin-left: 215px;
 }
 
 .features-list {
@@ -231,7 +229,7 @@ img {
 }
 
 .features-item {
-    justify-content: space-around;
+    flex-basis: calc(100% / 4);
 }
 
 .features-item:not(:last-child) {
@@ -263,8 +261,6 @@ img {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    margin-right: 215px;
-    margin-left: 215px;
 }
 .we-do-title {
     margin-bottom: 50px;
@@ -286,8 +282,7 @@ img {
 /*Our Team*/
 
 .section-team {
-    padding: 94px 215px;
-    background-colorbackground: var(--second-page-color);
+    background-color: var(--second-page-color);
 }
 .team-title {
     font-weight: bold;
@@ -295,15 +290,19 @@ img {
     line-height: 1.17;
     text-align: center;
 }
-
+.team-item {
+}
 .team-list {
     display: flex;
     padding-top: 50px;
+    margin-bottom: 94px;
 }
 
 .team-item:not(:last-child) {
-    background-color: var(--main-page-color);
     margin-right: 30px;
+}
+.team-item {
+    background-color: var(--main-page-color);
 }
 
 .team-list-subtitle {
@@ -320,6 +319,7 @@ img {
     text-align: center;
     color: var(--main-text-color);
     padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 /*End Team Section*/
