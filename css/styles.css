@@ -230,7 +230,7 @@ img {
     display: flex;
 }
 
-.features-list {
+.features-item {
     justify-content: space-around;
 }
 
@@ -394,6 +394,7 @@ img {
 }
 .logo {
     display: block;
+    margin-bottom: 5px;
 }
 
 .adress {
