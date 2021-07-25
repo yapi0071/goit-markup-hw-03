@@ -337,6 +337,7 @@ img {
 }
 .btn-option:hover,
 .btn-option:focus {
+    color: var(--accent-text-color);
     background-color: var(--accent-text-color);
 }
 .btn-option:not(:last-child) {
@@ -346,6 +347,7 @@ img {
 .button-list {
     justify-content: center;
     display: flex;
+    padding-top: 126px;
 }
 
 .works-list {
