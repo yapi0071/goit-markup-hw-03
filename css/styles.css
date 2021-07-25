@@ -106,7 +106,10 @@ img {
 }
 
 /*Header*/
-
+.block {
+    display: flex;
+    align-items: center;
+}
 /*Naviagation*/
 
 .navi-list-item:not(:last-child),
@@ -130,9 +133,8 @@ img {
     display: block;
     padding: 32px 0;
 }
-.navi-block {
-    display: block;
-    align-items: center;
+.navi {
+    display: flex;
     margin-right: 215;
     margin-left: 215;
 }
@@ -152,6 +154,9 @@ img {
     letter-spacing: 0.02em;
 }
 
+/* .header {
+    margin: 94px;
+} */
 .contacts {
     display: flex;
     margin-left: auto;
@@ -159,7 +164,6 @@ img {
 
 .head-nav-link,
 .head-mail-link {
-    display: flex;
     color: black;
 }
 
@@ -226,7 +230,7 @@ img {
     display: flex;
 }
 
-.features-item {
+.features-list {
     justify-content: space-around;
 }
 
@@ -238,7 +242,6 @@ img {
     font-size: inherit;
     line-height: 16px;
     text-transform: uppercase;
-    padding-right: 30px;
 }
 
 .features-text {
@@ -391,7 +394,6 @@ img {
 }
 .logo {
     display: block;
-    margin-bottom: 5px;
 }
 
 .adress {
