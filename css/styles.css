@@ -332,9 +332,11 @@ img {
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
+    color: var(--title-text-color);
     background-color: var(--main-page-color);
     cursor: pointer;
 }
+
 .btn-option:hover,
 .btn-option:focus {
     color: var(--accent-text-color);
@@ -348,6 +350,9 @@ img {
     justify-content: center;
     display: flex;
     padding-top: 126px;
+    border-style: none;
+    border-color: transparent;
+    border-radius: 4px;
 }
 
 .works-list {
